@@ -33,7 +33,8 @@ import {
   Plus,
   Minus,
   X,
-  ArrowRight
+  ArrowRight,
+  Linkedin
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
@@ -95,6 +96,15 @@ const Hero = () => (
             className="px-10 py-5 border-2 border-neutral-200 dark:border-neutral-800 rounded-2xl font-bold hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-all hover:-translate-y-1 dark:text-white active:scale-95"
           >
             Voir mes projets
+          </a>
+          <a 
+            href="https://www.linkedin.com/in/baraka-michael-klg" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-5 border-2 border-neutral-200 dark:border-neutral-800 rounded-2xl font-bold hover:bg-blue-50 dark:hover:bg-blue-900/20 hover:border-blue-500 dark:hover:border-blue-500 hover:text-blue-600 dark:hover:text-blue-400 transition-all hover:-translate-y-1 dark:text-white active:scale-95 flex items-center justify-center"
+            title="Mon profil LinkedIn"
+          >
+            <Linkedin size={24} />
           </a>
         </div>
       </motion.div>
@@ -567,7 +577,7 @@ const Contact = () => (
           <span className="text-2xl font-black dark:text-white">0979307569</span>
         </a>
       </div>
-      <div className="mt-20 flex justify-center gap-8">
+      <div className="mt-20 flex flex-wrap justify-center gap-8">
         <a 
           href="https://github.com/barakamichaelklg-code" 
           target="_blank" 
@@ -576,6 +586,15 @@ const Contact = () => (
         >
           <Github size={28} className="group-hover:rotate-12 transition-transform" />
           <span className="text-sm font-black uppercase tracking-widest">GitHub Profile</span>
+        </a>
+        <a 
+          href="https://www.linkedin.com/in/baraka-michael-klg" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="group p-5 rounded-3xl bg-white dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 hover:bg-[#0A66C2] hover:text-white transition-all duration-300 flex items-center gap-4 dark:text-white shadow-sm"
+        >
+          <Linkedin size={28} className="group-hover:-rotate-12 transition-transform" />
+          <span className="text-sm font-black uppercase tracking-widest">LinkedIn Profile</span>
         </a>
       </div>
     </div>
