@@ -8,12 +8,20 @@
 
 @layer base {
   body {
-    @apply bg-neutral-50 text-neutral-900 font-sans antialiased;
+    @apply bg-neutral-50 text-neutral-900 font-sans antialiased transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-neutral-950 text-neutral-50;
   }
 }
 
 .glass {
   @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-sm;
+}
+
+.dark .glass {
+  @apply bg-neutral-900/70 border-neutral-800/50;
 }
 
 .section-padding {
