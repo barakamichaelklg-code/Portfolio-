@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Stethoscope, User } from "lucide-react";
 import { PageLayout } from "../components/PageLayout";
+import { SEO } from "../components/SEO";
 
 export const About = () => (
   <PageLayout 
@@ -8,6 +9,7 @@ export const About = () => (
     subtitle="Découvrez mon parcours à l'intersection de la santé et du développement web."
     icon={User}
   >
+    <SEO title="À Propos" description="Découvrez le parcours de Baraka Michael KLG, étudiant en Pharmacie et développeur web à Bukavu." />
     <div className="grid md:grid-cols-2 gap-16 items-center">
       <motion.div
         initial={{ opacity: 0, x: -20 }}
