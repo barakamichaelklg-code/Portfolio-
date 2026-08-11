@@ -95,13 +95,6 @@ Pour générer les fichiers optimisés pour la mise en ligne dans le dossier `di
 npm run build
 ```
 
-### Déploiement recommandé
-Le projet est prêt à être déployé sur **Vercel** ou **Netlify** :
-1. Connectez votre dépôt GitHub à la plateforme choisie.
-2. Choisissez la configuration par défaut pour une application **Vite**.
-3. Déployez ! La plateforme s'occupe de la compilation et mettra à jour votre site automatiquement à chaque `git push`.
-
----
 
 ## ✉️ Contact & Liens
 - **LinkedIn** : [Baraka Michael KLG](https://www.linkedin.com/in/baraka-michael-klg)
