@@ -5,10 +5,6 @@ Bienvenue sur le dépôt de mon portfolio professionnel. Je suis **Baraka Michae
 
 Ce projet présente mon profil, mes compétences techniques en développement de logiciels, mes certifications et mes réalisations concrètes comme *PharmaStock Manager* et *DrugInfo API*.
 
----
-=======
->>>>>>> e7f98a3cc5c3b5490b897222c0c3d82d7084dde5
-
 ## 🚀 Fonctionnalités & Optimisations
 
 - **Design Premium & Adaptatif** : Interface fluide, moderne et réactive développée avec React et Tailwind CSS.
